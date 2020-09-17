@@ -1,0 +1,7 @@
+test.id,test.description,http.protocol,http.host,http.port,http.path,http.method,content.type,input.json,header_count,headername_1,headervalue_1,headername_2,headervalue_2
+1,create orders,http,createtestorder.us-e2.cloudhub.io,,/v1/create,POST,application/json,create-post.json,2,sourceType,src1,destinationType,dest1
+2,get created orders,http,createtestorder.us-e2.cloudhub.io,,/v1/create?companyCode=123&destinationType=test,GET,application/json,,2,sourceType,src2,destinationType,dest2
+3,validate order,http,createtestorder.us-e2.cloudhub.io,,/v1/validate,POST,application/json,validate-post.json,2,sourceType,src3,destinationType,dest3
+4,get validated orders,http,createtestorder.us-e2.cloudhub.io,,/v1/validate?companyCode=123&destinationType=test,GET,application/json,,2,sourceType,src4,destinationType,dest4
+5,despatch order,http,createtestorder.us-e2.cloudhub.io,,/v1/despatch,POST,application/json,despatch-post.json,2,sourceType,src5,destinationType,dest5
+6,get despatched orders,http,createtestorder.us-e2.cloudhub.io,,/v1/despatch?companyCode=123&destinationType=test,GET,application/json,,2,sourceType,src6,destinationType,dest6
