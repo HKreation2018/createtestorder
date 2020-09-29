@@ -57,8 +57,7 @@
 				    <completeflag>${completerunrequired}</completeflag>
 				    <client_id>${clientid}</client_id>
 				    <client_secret>${clientsecret}</client_secret>
-                  </propertiesUser>
-				  <generateReports>true</generateReports>  
+                  </propertiesUser> 
                 </configuration>
             <executions>
                <execution>
